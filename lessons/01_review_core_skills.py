@@ -38,6 +38,8 @@ print("Item:", item["name"], "costs", item["price"])
 # Ask the user for their name and favourite food.
 # Print a friendly message using an f-string.
 
+
+
 # --- TODO 2 ---
 # Ask the user for a whole number.
 # Print "Even" or "Odd" using %.
