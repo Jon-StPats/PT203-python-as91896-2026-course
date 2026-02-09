@@ -11,7 +11,7 @@ Run:
 
 print("Review: variables, input/output, if, loops, collections\n")
 
-# --- Examples ---
+""" # --- Examples ---
 name = "Sam"     # str
 year = 12        # int
 print(f"{name} is in Year {year}.")
@@ -32,11 +32,15 @@ print("Total of list:", total)
 
 # Example: dictionary
 item = {"name": "Muffin", "price": 4.50}
-print("Item:", item["name"], "costs", item["price"])
+print("Item:", item["name"], "costs", item["price"]) """
 
 # --- TODO 1 ---
 # Ask the user for their name and favourite food.
 # Print a friendly message using an f-string.
+
+name = input("Name: ").strip()
+food = input("favourite food: ").strip()
+print(f"Hi {name}! {food} sounds good.")
 
 
 
