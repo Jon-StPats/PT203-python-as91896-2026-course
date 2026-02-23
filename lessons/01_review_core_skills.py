@@ -30,6 +30,7 @@ for n in numbers:
     total += n
 print("Total of list:", total)
 
+
 # Example: dictionary
 item = {"name": "Muffin", "price": 4.50}
 print("Item:", item["name"], "costs", item["price"]) """
@@ -38,15 +39,22 @@ print("Item:", item["name"], "costs", item["price"]) """
 # Ask the user for their name and favourite food.
 # Print a friendly message using an f-string.
 
-name = input("Name: ").strip()
+""" name = input("Name: ").strip()
 food = input("favourite food: ").strip()
-print(f"Hi {name}! {food} sounds good.")
-
+print(f"Hi {name}! {food} sounds good.") """
 
 
 # --- TODO 2 ---
 # Ask the user for a whole number.
 # Print "Even" or "Odd" using %.
+
+whole_num = int((input("Please enter a whole number: ")))
+if whole_num %2 == 0:
+    print("Even")
+else:
+    print("Odd")    
+
+
 
 # --- TODO 3 ---
 # Create a list of 3 menu items (strings) and print them one per line.
